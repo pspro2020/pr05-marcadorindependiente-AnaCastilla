@@ -9,8 +9,6 @@ public class Dice {
         synchronized (watcher[num - 1]) {
             numbers[num - 1]++;
         }
-
-        System.out.printf("Number %d has been thrown\n", num);
     }
 
     public void showNumbers() {
